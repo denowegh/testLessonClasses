@@ -25,6 +25,7 @@ class People{
         this.#email = email
         this.#age = age
     }
+    
     get getName(){
         return this.#name;
     }
@@ -75,7 +76,7 @@ try{
 }
 
 try{
-    people.setAge = 20;
+    people.setAge = "20g";
     console.log(people.getAge);
 }catch(e){
     console.log(e.message);
