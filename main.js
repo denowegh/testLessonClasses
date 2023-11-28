@@ -87,3 +87,5 @@ try{
 }catch(e){
     console.log(e.message);
 }
+
+console.log(`Person: age=${people.getAge} name=${people.getName} email=${people.getEmail}`);
